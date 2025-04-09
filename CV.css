@@ -1,0 +1,59 @@
+
+/* Ümumi səhifə dizaynı */
+body {
+    background-color: #f0f0f5;
+    font-family:'Segoe UI',sans-serif;
+    margin: 0;
+    padding: 20px;  
+}
+/* CV qutusu */
+.CV-container {
+    background-color: white;
+    max-width: 700px;
+    margin: auto;
+    padding:30 px;
+    border-radius: 10 px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+/*Başlıq */
+h1 {
+    color: 2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+}
+/*Alt başlıq */
+h2 {
+    color: #34495e;
+    font-size: 16px;
+}
+/*Mətn və siyahı */
+p,li {
+    color: #555;
+    font-size: 16px;
+}
+/*Linklər */
+a {
+    color:#2980b9;
+    text-decoration: underline;
+}
+a:hover {
+    text-decoration: underline;
+}
+.toggle-btn {
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    background-color: #ff0f0f;
+    color: red;
+    border-radius: 5px;
+  }
+  
+body.red-mode .toggle-btn {
+    background-color: #ff0505;
+    color: #d40b0b;
+  }
+body.red-mode {
+        background-color: #f00b0b;
+        color: red;
+      }    
